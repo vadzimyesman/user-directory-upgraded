@@ -1,0 +1,140 @@
+.App {
+  text-align: left;
+}
+
+header{
+  height: 80px;
+  background-color:  rgb(27, 164, 255);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 40px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.whiteCont{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+  padding-left: 50px;
+  justify-content: flex-start;
+
+
+
+}
+
+.blackCont{
+  padding-top: 80px;
+  padding-right: 40px;
+  padding-left: 70px;
+  background-color: black;
+  height: 620px;
+}
+
+
+.currentPage{
+  height: 20px;
+  align-self: flex-end;
+  padding-right: 5px;
+  font-weight: 800;
+  font-size: 20px;
+
+}
+
+.allButtons{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.modify{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.modifyButtons{
+  background-color: rgb(27, 164, 255);
+  color: white;
+  font-size: 12px;
+  font-weight: 800;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  border-radius: 12px;
+  border-color: black;
+  height: 30px;
+  
+}
+
+.routing{
+  color: white;
+  background-color: black;
+  border-color: black;
+  font-weight: 700;
+
+}
+
+.names{
+  font-size: 22px;
+  text-decoration: underline;
+  text-decoration-color: rgb(27, 164, 255);
+  text-underline-offset: 2px;
+  height: 22px;
+  margin: 0;
+  
+}
+
+.flexText{
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  height: 25px;
+}
+
+.userInfo1{
+  padding-bottom: 25px;
+}
+
+.infoText2{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.infoText3{
+  font-weight: 800;
+}
+
+.favMovies{
+  margin-bottom: 0;
+  margin-top: 15px;
+  font-size: 15px;
+  
+}
+
+.movieList{
+  margin-top: 3px;
+  margin-left: 20px;
+}
+
+.forms{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 400px;
+
+}
+
+.submitCont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.err{
+  color: red;
+}
